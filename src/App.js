@@ -1,22 +1,69 @@
-import React from 'react'
+import React, { Component } from 'react'
 // import logo from './logo.svg'
 import './App.css'
-import MyNavbar from './MyNavbar'
+import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
+import NavItem from 'react-bootstrap/NavItem'
+import { LinkContainer } from 'react-router-bootstrap'
 import img from './img/peter-olexa-unsplash.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from 'react-router-dom'
+import Home from './components/Home'
+import Portfolio from './components/Portfolio'
+import Contact from './components/Contact'
+import About from './components/About'
 
-function App () {
-  return (
-    <div className='App' style={{ backgroundImage: 'url(' + img + ')' }}>
-      <MyNavbar />
-      <header className='App-header'>
-        <div id='fadeOnLoad'>
-          <h1>Welcome To My</h1>
-          <h1>Personal Page</h1>
-        </div>
-      </header>
-    </div>
-  )
+class App extends Component {
+  render () {
+    return (
+      <div className='App'>
+        <Router>
+          <div className='MyNavbar'>
+            <div className='container-fluid'>
+              <Navbar className='nav-fill' expand='md'>
+                <Navbar.Brand href='#home'>Naseem Miah</Navbar.Brand>
+                <Navbar.Toggle aria-controls='basic-navbar-nav' />
+                <Navbar.Collapse id='navbar1'>
+                  <Nav className='mr-auto'>
+                    <LinkContainer to='/home'>
+                      <NavItem> Home </NavItem>
+                    </LinkContainer>
+                    <LinkContainer to='/portfolio'>
+                      <NavItem> Portfolio </NavItem>
+                    </LinkContainer>
+                    <LinkContainer to='/contact'>
+                      <NavItem> Contact </NavItem>
+                    </LinkContainer>
+                    <LinkContainer to='/about'>
+                      <NavItem> About </NavItem>
+                    </LinkContainer>
+                  </Nav>
+                </Navbar.Collapse>
+              </Navbar>
+            </div>
+          </div>
+
+          <header className='App-header' style={{ backgroundImage: 'url(' + img + ')' }}>
+            <div>
+              <Switch>
+                {/* <Route path="/">
+                  <App />
+                </Route> */}
+                <Route path='/home' component={Home} />
+                <Route path='/contact' component={Contact} />
+                <Route path='/portfolio' component={Portfolio} />
+                <Route path='/about' component={About} />
+              </Switch>
+            </div>
+          </header>
+        </Router>
+      </div>
+    )
+  }
 }
 
 export default App

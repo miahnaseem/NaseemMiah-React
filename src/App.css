@@ -36,31 +36,17 @@
   }
 }
 
-#fadeOnLoad {
-  animation: fadeIn 2s;
-  -webkit-animation: fadeIn 2s;
+.MyNavbar {
+  width: 100%;
+  background-color: white;
+  overflow: auto;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+#navbar1 {
+  width: 100%;
 }
 
-@-webkit-keyframes fadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
-h1 {
-  color: white;
-}
-@media screen and (min-width: 771px) {
-	h1 {
-		font-size: 650% !important;
-	}
-}
-@media screen and (max-width: 770px) {
-	h1 {
-		font-size: 500% !important;
-	}
+.navbar-nav {
+  width: 100%;
+  justify-content: space-evenly;
 }
