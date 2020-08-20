@@ -48,7 +48,7 @@ class App extends Component {
           </div>
 
           <header className='App-header' style={{ backgroundImage: 'url(' + img + ')' }}>
-            <div>
+            <div className='Container'>
               <Switch>
                 {/* <Route path="/">
                   <App />
