@@ -10,7 +10,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Redirect
 } from 'react-router-dom'
 import Home from './components/Home'
 import Portfolio from './components/Portfolio'
@@ -25,13 +26,10 @@ class App extends Component {
           <div className='MyNavbar'>
             <div className='container-fluid'>
               <Navbar className='nav-fill' expand='md'>
-                <Navbar.Brand href='#home'>Naseem Miah</Navbar.Brand>
+                <Navbar.Brand href='/'>Naseem Miah</Navbar.Brand>
                 <Navbar.Toggle aria-controls='basic-navbar-nav' />
                 <Navbar.Collapse id='navbar1'>
                   <Nav className='mr-auto'>
-                    <LinkContainer to='/home'>
-                      <NavItem> Home </NavItem>
-                    </LinkContainer>
                     <LinkContainer to='/portfolio'>
                       <NavItem> Portfolio </NavItem>
                     </LinkContainer>
@@ -53,6 +51,9 @@ class App extends Component {
                 {/* <Route path="/">
                   <App />
                 </Route> */}
+                <Route exact path='/'>
+                  <Redirect to='/home' />
+                </Route>
                 <Route path='/home' component={Home} />
                 <Route path='/contact' component={Contact} />
                 <Route path='/portfolio' component={Portfolio} />

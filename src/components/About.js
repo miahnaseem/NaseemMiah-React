@@ -3,6 +3,7 @@ import './About.css'
 import NYC from '../img/andre-benz-CR0E20Of7yU-unsplash.jpg'
 import Code from '../img/clement-h-95YRwf6CNw8-unsplash.jpg'
 import Thanks from '../img/priscilla-du-preez-yO12O8j3JK0-unsplash.jpg'
+import Carousel from 'react-bootstrap/Carousel'
 
 class About extends Component {
   render () {
@@ -33,38 +34,54 @@ class About extends Component {
                 </div>
               </div>
             </div>
+
             <div class='container col-xl-6 pb-4'>
               {/* <div class='d-flex justify-content-center'>
                 <div class='spinner-border text-light' role='status' id='spinner'><span class='sr-only'>Loading</span></div>
               </div> */}
-              <div class='carousel slide carousel-fade' id='captionedCarousel' data-ride='carousel'>
-                <ol class='carousel-indicators'>
-                  <li class='active' data-target='#captionedCarousel' data-slide-to='0' />
-                  <li data-target='#captionedCarousel' data-slide-to='1' />
-                  <li data-target='#captionedCarousel' data-slide-to='2' />
-                </ol>
-                <div class='carousel-inner'>
-                  <div class='carousel-item active'><img class='d-block w-100' src={NYC} alt='Ariel view of New York at night' />
-                    <div class='carousel-caption d-none d-md-block'>
-                      <h5>Where am I From?</h5>
-                      <p>The city that never sleeps, NYC</p>
-                    </div>
+              <Carousel>
+                <Carousel.Item>
+                  <img
+                    className='d-block w-100'
+                    src={NYC}
+                    alt='First slide'
+                  />
+                  <div class='carousel-caption'>
+                    <Carousel.Caption>
+                      <h3>First slide label</h3>
+                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
                   </div>
-                  <div class='carousel-item'><img class='d-block w-100' src={Code} alt='Closeup of express code' />
-                    <div class='carousel-caption d-none d-md-block'>
-                      <h5>What do I do?</h5>
-                      <p>Make sites like the one you're viewing now!</p>
-                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className='d-block w-100'
+                    src={Code}
+                    alt='Third slide'
+                  />
+                  <div class='carousel-caption'>
+                    <Carousel.Caption>
+                      <h3>Second slide label</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </Carousel.Caption>
                   </div>
-                  <div class='carousel-item'><img class='d-block w-100' src={Thanks} alt='Thank you spelled out by scrabble blocks' />
-                    <div class='carousel-caption d-none d-md-block'>
-                      <h5>Why do I do it?</h5>
-                      <p>Because of everyone who provides feedback and support after visiting</p>
-                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className='d-block w-100'
+                    src={Thanks}
+                    alt='Third slide'
+                  />
+                  <div class='carousel-caption'>
+                    <Carousel.Caption>
+                      <h3>Third slide label</h3>
+                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
                   </div>
-                </div><a class='carousel-control-prev' href='#captionedCarousel' role='button' data-slide='prev'><span class='carousel-control-prev-icon' aria-hidden='true' /><span class='sr-only'>Previous</span></a><a class='carousel-control-next' href='#captionedCarousel' role='button' data-slide='next'><span class='carousel-control-next-icon' aria-hidden='true' /><span class='sr-only'>Next</span></a>
-              </div>
+                </Carousel.Item>
+              </Carousel>
             </div>
+
             <div class='col-xl-3 pb-4'>
               <div class='jumbotron jumbotron-fluid'>
                 <div class='container'>
