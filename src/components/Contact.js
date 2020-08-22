@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Contact.css'
 import TwitterEmbed from './TwitterEmbed'
-import Modal from 'react-bootstrap/Modal'
+// import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
 
 class Contact extends Component {
