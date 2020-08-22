@@ -18,17 +18,19 @@ class About extends Component {
                   <div class='card-body'>
                     <blockquote class='blockquote mb-0'>
                       <p>“Forty-two,”</p>
-                      <footer class='blockquote-footer'>Deep Thought in
-                        <cite title='Source Title'>The Hitchhiker's Guide to the Galaxy</cite>
-                      </footer>
+                      <div class='source'>
+                        <footer class='blockquote-footer'>Deep Thought in
+                          <cite title='Source Title'> The Hitchhiker's Guide to the Galaxy</cite>
+                        </footer>
+                      </div>
                     </blockquote>
                   </div>
                 </div>
               </div>
               <div class='container'>
-                <div class='card p-3 pr-1 mx-auto' style={{ width: '70%' }}><img class='card-img-top img-responsive' src='https://imagine.gsfc.nasa.gov/hst_bday/images/october-17-2019-cartwheel-galaxy.jpg' alt='cartwheel galaxy taken by the Hubble Telescope' />
+                <div class='card p-3 pr-1 mx-auto'><img class='card-img-top img-responsive' src='https://imagine.gsfc.nasa.gov/hst_bday/images/october-17-2019-cartwheel-galaxy.jpg' alt='cartwheel galaxy taken by the Hubble Telescope' />
                   <div class='card-body'>
-                    <h5 class='card-title'>My birthday</h5>
+                    <h4 class='card-title'>My birthday</h4>
                     <p class='card-text'>I was born October 17, 1998. On the same day, 1996, Hubble Telescope snapped this picture of the Cartwheel galaxy.</p><a class='btn btn-primary' href='https://www.nasa.gov/content/goddard/what-did-hubble-see-on-your-birthday' target='_blank' rel='noopener noreferrer'>Find your birthday discovery</a>
                   </div>
                 </div>
@@ -48,8 +50,8 @@ class About extends Component {
                   />
                   <div class='carousel-caption'>
                     <Carousel.Caption>
-                      <h3>First slide label</h3>
-                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      <h3>Where am I from?</h3>
+                      <p>The city that never sleeps, New York</p>
                     </Carousel.Caption>
                   </div>
                 </Carousel.Item>
@@ -61,8 +63,8 @@ class About extends Component {
                   />
                   <div class='carousel-caption'>
                     <Carousel.Caption>
-                      <h3>Second slide label</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      <h3>What do I do?</h3>
+                      <p>Make sites like the one you're viewing now</p>
                     </Carousel.Caption>
                   </div>
                 </Carousel.Item>
@@ -74,8 +76,8 @@ class About extends Component {
                   />
                   <div class='carousel-caption'>
                     <Carousel.Caption>
-                      <h3>Third slide label</h3>
-                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      <h3>Why do I do it?</h3>
+                      <p>Because of everyone that checks my stuff out and provide support</p>
                     </Carousel.Caption>
                   </div>
                 </Carousel.Item>
@@ -85,16 +87,15 @@ class About extends Component {
             <div class='col-xl-3 pb-4'>
               <div class='jumbotron jumbotron-fluid'>
                 <div class='container'>
-                  <h2 class='display-5 pb-3'>What can I do for you?</h2><br />
+                  <h4 class='display-5 pb-3'>What can I do for you?</h4><br />
                   <p id='list'>UI/UX</p>
                   <p id='list'>Vanilla Js + Jquery</p>
                   <p id='list'>Web hosting</p>
-                  <p id='list'>SEO
-                    <p class='pt-5 lead'>
-                      I am looking for work and hoping you're looking for someone that can get the job done.
-                      Please take a look at my project experience under the Portfolio tab, and/or request my
-                      résumé. I might just be what you're looking for :)
-                    </p>
+                  <p id='list'>SEO</p>
+                  <p class='pt-5 lead'>
+                    I am looking for work and hoping you're looking for someone that can get the job done.
+                    Please take a look at my project experience under the Portfolio tab, and/or request my
+                    résumé. I might just be what you're looking for :)
                   </p>
                 </div>
               </div>

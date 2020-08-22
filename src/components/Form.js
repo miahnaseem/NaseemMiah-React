@@ -23,17 +23,17 @@ class Form extends Component {
   render () {
     return (
       <form onSubmit={this.handleSubmit}>
-        <div class='form-group'>
-          <label class='col-form-label' for='senderName'>Your Name:</label>
-          <input class='form-control' type='text' id='senderName' />
+        <div className='form-group'>
+          <label className='col-form-label' htmlFor='senderName'>Your Name:</label>
+          <input className='form-control' type='text' id='senderName' />
         </div>
-        <div class='form-group'>
-          <label class='col-form-label' for='senderEmail'>Your Email:</label>
-          <input class='form-control' type='text' id='senderEmail' />
+        <div className='form-group'>
+          <label className='col-form-label' htmlFor='senderEmail'>Your Email:</label>
+          <input className='form-control' type='text' id='senderEmail' />
         </div>
-        <div class='form-group'>
-          <label class='col-form-label' for='messageText'>Message: </label>
-          <textarea class='form-control' id='messageText' />
+        <div className='form-group'>
+          <label className='col-form-label' htmlFor='messageText'>Message: </label>
+          <textarea className='form-control' id='messageText' />
         </div>
       </form>
     )

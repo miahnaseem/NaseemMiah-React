@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavItem from 'react-bootstrap/NavItem'
 import { LinkContainer } from 'react-router-bootstrap'
-import img from './img/peter-olexa-unsplash.jpg'
+import img from './img/FullSizeRender.v1.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {
   BrowserRouter as Router,
