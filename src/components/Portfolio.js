@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import Form from './Form'
 import './Portfolio.css'
 import GEDCOMoutput from '../img/GEDCOMoutput.png'
-import CHUGG from '../img/CHUGG.png'
-import CCE from '../img/cce-search.png'
-import Home from '../img/homepage.png'
+import CHUGG from '../img/CHUGG.PNG'
+import CCE from '../img/cce-search.PNG'
+import Home from '../img/homepage.PNG'
 
 class Portfolio extends Component {
   render () {
