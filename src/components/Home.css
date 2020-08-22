@@ -1,0 +1,29 @@
+#fadeOnLoad {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+}
+  
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+  
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+  
+h1 {
+    color: white;
+}
+
+@media screen and (min-width: 771px) {
+    h1 {
+        font-size: 650% !important;
+    }
+}
+@media screen and (max-width: 770px) {
+    h1 {
+        font-size: 500% !important;
+    }
+}

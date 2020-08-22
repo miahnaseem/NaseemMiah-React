@@ -1,0 +1,14 @@
+
+.carousel-caption {
+    right: 5%;
+    text-align: right;
+    font-size: small;
+}
+
+div.source * {
+    color: black;
+}
+
+.jumbotron {
+    border-radius: 4px;
+}

@@ -1,0 +1,14 @@
+.MyNavbar {
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+  }
+
+#navbar1 {
+    width: 100%;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: space-evenly;
+}
