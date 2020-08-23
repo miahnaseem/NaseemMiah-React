@@ -3,3 +3,13 @@ img {
     height: undefined;
     aspect-ratio: 1;
 }
+
+.card-text {
+    font-size: medium;
+}
+
+.card-container {
+    padding-right: 11%;
+    padding-left: 11%;
+    padding-bottom: 0%;
+}

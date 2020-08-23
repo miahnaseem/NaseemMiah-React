@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './About.css'
-import NYC from '../img/andre-benz-CR0E20Of7yU-unsplash.jpg'
-import Code from '../img/clement-h-95YRwf6CNw8-unsplash.jpg'
+import NYC from '../img/NYC.jpg'
+import Code from '../img/laptop.jpg'
 import Thanks from '../img/priscilla-du-preez-yO12O8j3JK0-unsplash.jpg'
 import Carousel from 'react-bootstrap/Carousel'
 
@@ -9,9 +9,9 @@ class About extends Component {
   render () {
     return (
       <div className='About'>
-        <div class='container pt-4 mw-100'>
+        <div class='container pt-5 mt-4 mw-100'>
           <div class='row'>
-            <div class='container col-xl-3 pb-4'>
+            <div class='container col-xl-3'>
               <div class='container pb-3'>
                 <div class='card p-3 pr-1' style={{ width: '103%' }}>
                   <div class='card-header'>My quote of the day</div>
@@ -27,11 +27,13 @@ class About extends Component {
                   </div>
                 </div>
               </div>
-              <div class='container'>
-                <div class='card p-3 pr-1 mx-auto'><img class='card-img-top img-responsive' src='https://imagine.gsfc.nasa.gov/hst_bday/images/october-17-2019-cartwheel-galaxy.jpg' alt='cartwheel galaxy taken by the Hubble Telescope' />
-                  <div class='card-body'>
-                    <h4 class='card-title'>My birthday</h4>
-                    <p class='card-text'>I was born October 17, 1998. On the same day, 1996, Hubble Telescope snapped this picture of the Cartwheel galaxy.</p><a class='btn btn-primary' href='https://www.nasa.gov/content/goddard/what-did-hubble-see-on-your-birthday' target='_blank' rel='noopener noreferrer'>Find your birthday discovery</a>
+              <div class='container' id='birthdayCardContainer'>
+                <div id='birthdayCard'>
+                  <div class='card p-3 mx-auto'><img class='card-img-top img-responsive' src='https://imagine.gsfc.nasa.gov/hst_bday/images/october-17-2019-cartwheel-galaxy.jpg' alt='cartwheel galaxy taken by the Hubble Telescope' />
+                    <div class='card-body'>
+                      <h4 class='card-title'>My birthday</h4>
+                      <p class='card-text'>I was born October 17, 1998. On the same day, 1996, Hubble Telescope snapped this picture of the Cartwheel galaxy.</p><a class='btn btn-primary' href='https://www.nasa.gov/content/goddard/what-did-hubble-see-on-your-birthday' target='_blank' rel='noopener noreferrer'>Find your birthday discovery</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -77,7 +79,7 @@ class About extends Component {
                   <div class='carousel-caption'>
                     <Carousel.Caption>
                       <h3>Why do I do it?</h3>
-                      <p>Because of everyone that checks my stuff out and provide support</p>
+                      <p>Because of I love it and I love seeing your feedback and support</p>
                     </Carousel.Caption>
                   </div>
                 </Carousel.Item>
@@ -85,9 +87,10 @@ class About extends Component {
             </div>
 
             <div class='col-xl-3 pb-4'>
-              <div class='jumbotron jumbotron-fluid'>
+              <div class='jumbotron jumbotron-fluid' id='aboutJumbotron'>
                 <div class='container'>
-                  <h4 class='display-5 pb-3'>What can I do for you?</h4><br />
+                  <h4 class='display-4'>What can I do for you?</h4><br />
+                  <hr />
                   <p id='list'>UI/UX</p>
                   <p id='list'>Vanilla Js + Jquery</p>
                   <p id='list'>Web hosting</p>
