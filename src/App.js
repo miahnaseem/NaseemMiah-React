@@ -3,9 +3,7 @@ import React, { Component } from 'react'
 import './App.css'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-import NavItem from 'react-bootstrap/NavItem'
-import { LinkContainer } from 'react-router-bootstrap'
-import img from './img/FullSizeRender.v1.jpg'
+import img from './img/neutral.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {
   BrowserRouter as Router,
@@ -30,27 +28,18 @@ class App extends Component {
                 <Navbar.Toggle aria-controls='basic-navbar-nav' />
                 <Navbar.Collapse id='navbar1'>
                   <Nav className='mr-auto'>
-                    <LinkContainer to='/portfolio'>
-                      <NavItem> Portfolio </NavItem>
-                    </LinkContainer>
-                    <LinkContainer to='/contact'>
-                      <NavItem> Contact </NavItem>
-                    </LinkContainer>
-                    <LinkContainer to='/about'>
-                      <NavItem> About </NavItem>
-                    </LinkContainer>
+                    <Nav.Link href='/portfolio'> Portfolio </Nav.Link>
+                    <Nav.Link href='/contact'> Contact </Nav.Link>
+                    <Nav.Link href='/about'> About Me </Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
             </div>
           </div>
 
-          <header className='App-header' style={{ backgroundImage: 'url(' + img + ')' }}>
+          <header className='App-header' style={{ backgroundImage: 'url(' + img + ')', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
             <div className='Container'>
               <Switch>
-                {/* <Route path="/">
-                  <App />
-                </Route> */}
                 <Route exact path='/'>
                   <Redirect to='/home' />
                 </Route>
