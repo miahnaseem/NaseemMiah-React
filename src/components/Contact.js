@@ -25,7 +25,7 @@ class Contact extends Component {
   render () {
     return (
       <div className='Contact'>
-        <div className='container pt-4 mw-100'>
+        <div className='container pt-5 mt-5 mw-100'>
           <div class='row'>
             <div class='container col-xl-4'>
               <div class='jumbotron p-3 mb-5 bg-white rounded'>

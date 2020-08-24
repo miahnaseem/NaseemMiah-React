@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import './App.css'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
+import NavItem from 'react-bootstrap/NavItem'
 import img from './img/neutral.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {
@@ -11,6 +12,7 @@ import {
   Route,
   Redirect
 } from 'react-router-dom'
+import { LinkContainer } from 'react-router-bootstrap'
 import Home from './components/Home'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
@@ -28,9 +30,15 @@ class App extends Component {
                 <Navbar.Toggle aria-controls='basic-navbar-nav' />
                 <Navbar.Collapse id='navbar1'>
                   <Nav className='mr-auto'>
-                    <Nav.Link href='/portfolio'> Portfolio </Nav.Link>
-                    <Nav.Link href='/contact'> Contact </Nav.Link>
-                    <Nav.Link href='/about'> About Me </Nav.Link>
+                    <LinkContainer to='/portfolio'>
+                      <NavItem>Portfolio</NavItem>
+                    </LinkContainer>
+                    <LinkContainer to='/contact'>
+                      <NavItem>Contact</NavItem>
+                    </LinkContainer>
+                    <LinkContainer to='/about'>
+                      <NavItem>About Me</NavItem>
+                    </LinkContainer>
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
