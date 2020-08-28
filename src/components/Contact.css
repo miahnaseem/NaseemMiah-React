@@ -25,3 +25,11 @@ p {
 label {
     color: white;
 }
+
+.modalTitle {
+    color: white;
+}
+
+.myModal .modal-content{
+    background-color: #676767;
+}
