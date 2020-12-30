@@ -27,3 +27,11 @@ div.source * {
     border-width: 2px;
     border-color: #5A5A5A;
 }
+
+.source cite {
+    color: white;
+}
+
+.source footer {
+    color: white;
+}

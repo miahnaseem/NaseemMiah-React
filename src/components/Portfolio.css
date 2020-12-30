@@ -13,3 +13,7 @@ img {
     padding-left: 11%;
     padding-bottom: 0%;
 }
+
+body {
+    padding-top: -100px;
+}
