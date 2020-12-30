@@ -1,8 +1,3 @@
-#fadeOnLoad {
-    animation: fadeIn 2s;
-    -webkit-animation: fadeIn 2s;
-}
-  
 @keyframes fadeIn {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -11,12 +6,6 @@
 @-webkit-keyframes fadeIn {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
-  
-h1 {
-    color: 	white;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color:#676767;
 }
 
 @media screen and (min-width: 771px) {
@@ -29,3 +18,13 @@ h1 {
         font-size: 500% !important;
     }
 }
+
+@font-face {
+    font-family: 'OpenSans';
+    src: local('OpenSans'), url(../fonts/OpenSans/OpenSansCondensed-Light.ttf) format('truetype');
+}
+
+h1 {
+    max-width: 1000px;
+}
+  

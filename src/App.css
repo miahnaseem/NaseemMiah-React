@@ -36,15 +36,53 @@
   }
 } */
 
-.MyNavbar {
-  width: 100%;
-  position: absolute;
-  background-color: white;
-  overflow: auto;
+body {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
 }
 
-#navbar1 {
-  width: 80%;
+body::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .tags {
+    color: gray
+  }
+
+  .tags:hover {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 768px) { 
+  .tags {
+    margin: 0px 10px;
+    border-style: none;
+    border-radius: 5px;
+    padding: 12px 40px;
+    transition: background-color 0.5s ease-in;
+    background-color: #FFF;
+    color: gray;
+  }
+  
+  .tags:hover {
+      text-decoration: none;
+      background-color: gray;
+      color: #FFF;
+    }
+}
+
+
+
+.navbar-fixed-top {
+  top: -70px; 
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: relative; 
 }
 
 .navbar-nav {
@@ -52,20 +90,27 @@
   justify-content: space-evenly;
 }
 
-@font-face {
-  font-family: 'Questrial-Regular';
-  src: local('Questrial-Regular'), url(./fonts/Questrial/Questrial-Regular.ttf) format('ttf');
+nav.navbar.open {
+  margin-bottom: 120px;
 }
 
-@font-face {
-  font-family: 'Comfortaa';
-  src: local('Comfortaa'), url(./fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf) format('ttf');
+.navlogo {
+  height: auto;
+  width: auto;
+  max-height: 54px;
+  max-width: 198px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 h1 {
   font-family: 'Bree Serif', serif;
 }
+
+
+html {
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+

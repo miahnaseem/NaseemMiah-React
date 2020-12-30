@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './About.css'
-import NYC from '../img/NYC.jpg'
+import Stevens from '../img/stevensLogo.jpg'
 import Code from '../img/laptop.jpg'
 import Thanks from '../img/priscilla-du-preez-yO12O8j3JK0-unsplash.jpg'
 import Carousel from 'react-bootstrap/Carousel'
@@ -29,10 +29,10 @@ class About extends Component {
               </div>
               <div class='container' id='birthdayCardContainer'>
                 <div id='birthdayCard'>
-                  <div class='card p-3 mx-auto'><img class='card-img-top img-responsive' src='https://imagine.gsfc.nasa.gov/hst_bday/images/october-17-2019-cartwheel-galaxy.jpg' alt='cartwheel galaxy taken by the Hubble Telescope' />
+                  <div class='card p-3 mx-auto'>
                     <div class='card-body'>
                       <h4 class='card-title'>My birthday</h4>
-                      <p class='card-text'>I was born October 17, 1998. On the same day, 1996, Hubble Telescope snapped this picture of the Cartwheel galaxy.</p><a class='btn btn-primary' href='https://www.nasa.gov/content/goddard/what-did-hubble-see-on-your-birthday' target='_blank' rel='noopener noreferrer'>Find your birthday discovery</a>
+                      <p class='card-text'>I was born October 17, 1998. On the same day, 1996, Hubble Telescope snapped a picture of the Cartwheel galaxy.</p><a class='btn btn-primary' href='https://www.nasa.gov/content/goddard/what-did-hubble-see-on-your-birthday' target='_blank' rel='noopener noreferrer'>Find your birthday discovery</a>
                     </div>
                   </div>
                 </div>
@@ -47,13 +47,13 @@ class About extends Component {
                 <Carousel.Item>
                   <img
                     className='d-block w-100'
-                    src={NYC}
+                    src={Stevens}
                     alt='First slide'
                   />
                   <div class='carousel-caption'>
                     <Carousel.Caption>
-                      <h3>Where am I from?</h3>
-                      <p>The city that never sleeps, New York</p>
+                      <h3>Where am I studying?</h3>
+                      <p>Stevens Institute of Technology, pursuing a B.S. in Computer Science</p>
                     </Carousel.Caption>
                   </div>
                 </Carousel.Item>
@@ -78,8 +78,8 @@ class About extends Component {
                   />
                   <div class='carousel-caption'>
                     <Carousel.Caption>
-                      <h3>Why do I do it?</h3>
-                      <p>Because of I love it and I love seeing your feedback and support</p>
+                      <h3>How do I do it?</h3>
+                      <p> With the support of others!</p>
                     </Carousel.Caption>
                   </div>
                 </Carousel.Item>
