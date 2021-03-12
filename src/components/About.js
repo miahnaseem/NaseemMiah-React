@@ -59,7 +59,7 @@ class About extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    className='d-block w-100'
+                    className='d-block w-100 carousel-image'
                     src={Code}
                     alt='Third slide'
                   />
@@ -72,7 +72,7 @@ class About extends Component {
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    className='d-block w-100'
+                    className='d-block w-100 carousel-image'
                     src={Thanks}
                     alt='Third slide'
                   />
@@ -98,7 +98,7 @@ class About extends Component {
                   <p class='pt-5 lead'>
                     I am looking for work and hoping you're looking for someone that can get the job done.
                     Please take a look at my project experience under the Portfolio tab, and/or request my
-                    résumé. I might just be what you're looking for :)
+                    résumé
                   </p>
                 </div>
               </div>
