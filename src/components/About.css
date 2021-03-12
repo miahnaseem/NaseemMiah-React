@@ -3,6 +3,17 @@
     font-size: medium;
 }
 
+.carousel .carousel-item {
+    height: 500px;
+}
+  
+.carousel-item img {
+      position: relative;
+      top: 400;
+      left: 0;
+      min-height: 500px;
+}
+
 div.source * {
     color: black;
 }
