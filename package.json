@@ -12,8 +12,8 @@
     "react-dom": "^16.13.1",
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3",
-    "standard": "^14.3.4",
+    "react-scripts": "^5.0.1",
+    "standard": "^17.1.2",
     "styled-components": "^5.1.1"
   },
   "scripts": {
@@ -21,10 +21,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app",
-    "parser": "babel-eslint"
   },
   "browserslist": {
     "production": [
