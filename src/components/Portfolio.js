@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Form from './Form'
 import './Portfolio.css'
+import portfolio from '../data/portfolio.json'
 import GEDCOMoutput from '../img/GEDCOMoutput.png'
 import CHUGG from '../img/CHUGG.PNG'
 import CCE from '../img/cce-search.PNG'

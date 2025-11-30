@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import './App.css'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-import img from './img/neutral1.png'
+import img from './img/Aneurin-Light-Blue-01-scaled.jpg'
 import logo from './img/navlogo.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {
