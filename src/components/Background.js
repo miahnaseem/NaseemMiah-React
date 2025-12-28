@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../img/Aneurin-Light-Blue-01-scaled.jpg'
+import img from '../img/254f41.png'
 
 function Background () {
   return <img src={img} alt='img' />

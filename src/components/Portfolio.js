@@ -14,7 +14,7 @@ class Portfolio extends Component {
   }
 
   handleNotReady () {
-    window.alert('Still learning how to handle client-side form submissions. If you have advice please email me at miahnaseem@gmail.com')
+    window.alert('Still working on handling client-side form submissions. If you would like my resume, email me at miahnaseem@gmail.com')
   }
 
   render () {

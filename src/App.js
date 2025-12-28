@@ -3,7 +3,8 @@ import React, { Component } from 'react'
 import './App.css'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
-import img from './img/Aneurin-Light-Blue-01-scaled.jpg'
+// import img from './img/Aneurin-Light-Blue-01-scaled.jpg'
+import img from './img/254f41.png'
 import logo from './img/navlogo.png'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {
@@ -16,6 +17,7 @@ import Home from './components/Home'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import About from './components/About'
+
 
 class App extends Component {
   render () {
