@@ -1,0 +1,2 @@
+# Exported Jupyter notebook: exclude from GitHub's language stats.
+public/notebooks/** linguist-vendored

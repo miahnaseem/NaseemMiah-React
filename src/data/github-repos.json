@@ -1,0 +1,158 @@
+{
+  "user": "miahnaseem",
+  "generatedAt": "2026-10-05T19:05:03.908Z",
+  "repos": [
+    {
+      "name": "NaseemMiah-React",
+      "description": null,
+      "url": "https://github.com/miahnaseem/NaseemMiah-React",
+      "homepage": null,
+      "language": "HTML",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2025-12-28T18:35:44Z",
+      "skills": [
+        "React"
+      ]
+    },
+    {
+      "name": "Food-Calorie-Image-Analysis-with-WebScraper",
+      "description": null,
+      "url": "https://github.com/miahnaseem/Food-Calorie-Image-Analysis-with-WebScraper",
+      "homepage": null,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2021-11-17T19:34:16Z",
+      "skills": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Jeff-Health-Hack",
+      "description": "Notebook used to draw insights on user persona",
+      "url": "https://github.com/miahnaseem/Jeff-Health-Hack",
+      "homepage": null,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2021-11-01T15:45:53Z",
+      "skills": [
+        "Python"
+      ]
+    },
+    {
+      "name": "appdev-week3-graphql",
+      "description": null,
+      "url": "https://github.com/miahnaseem/appdev-week3-graphql",
+      "homepage": null,
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2021-10-29T17:20:31Z",
+      "skills": [
+        "React"
+      ]
+    },
+    {
+      "name": "Predicting-Coding-Problem-Difficulty",
+      "description": null,
+      "url": "https://github.com/miahnaseem/Predicting-Coding-Problem-Difficulty",
+      "homepage": null,
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2021-10-04T20:50:02Z",
+      "skills": [
+        "Python"
+      ]
+    },
+    {
+      "name": "McDonalds-Hackathon-MAC-Marketing",
+      "description": "Research to guide team Marketing and UX direction for McDonald's x BrainStation Hackathon",
+      "url": "https://github.com/miahnaseem/McDonalds-Hackathon-MAC-Marketing",
+      "homepage": null,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2021-08-31T20:23:21Z",
+      "skills": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Early-Prediction-of-Lithium-Ion-Battery-Cycle-Life",
+      "description": "Independent Capstone research on battery health prediction.",
+      "url": "https://github.com/miahnaseem/Early-Prediction-of-Lithium-Ion-Battery-Cycle-Life",
+      "homepage": null,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "stars": 2,
+      "pushedAt": "2021-08-31T16:54:15Z",
+      "skills": [
+        "Python"
+      ]
+    },
+    {
+      "name": "MyWorstCar",
+      "description": "Using Twitter API,  graph representation of different car manufacturers under the #MyWorstCar trend",
+      "url": "https://github.com/miahnaseem/MyWorstCar",
+      "homepage": null,
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2021-01-28T01:23:39Z",
+      "skills": [
+        "Python"
+      ]
+    },
+    {
+      "name": "tiny-url-SMG-Mobile",
+      "description": "Web App as per SMG Code Test# 1 ",
+      "url": "https://github.com/miahnaseem/tiny-url-SMG-Mobile",
+      "homepage": null,
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2020-10-20T16:47:35Z",
+      "skills": [
+        "React"
+      ]
+    },
+    {
+      "name": "naseemmiah.io-Express",
+      "description": "Personal Website",
+      "url": "https://github.com/miahnaseem/naseemmiah.io-Express",
+      "homepage": null,
+      "language": "HTML",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2020-08-15T18:43:02Z",
+      "skills": []
+    },
+    {
+      "name": "SSW555_DRAIN",
+      "description": null,
+      "url": "https://github.com/miahnaseem/SSW555_DRAIN",
+      "homepage": null,
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2020-04-13T15:59:54Z",
+      "skills": [
+        "Python"
+      ]
+    },
+    {
+      "name": "MyShell",
+      "description": "Practicing C coding with personal shell",
+      "url": "https://github.com/miahnaseem/MyShell",
+      "homepage": null,
+      "language": "C",
+      "topics": [],
+      "stars": 0,
+      "pushedAt": "2019-04-11T16:29:34Z",
+      "skills": []
+    }
+  ]
+}
