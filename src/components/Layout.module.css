@@ -1,0 +1,193 @@
+.skip {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background: var(--brand);
+  color: var(--on-brand);
+  border-radius: 8px;
+}
+
+.skip:focus {
+  top: 1rem;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 4.25rem;
+}
+
+.brand {
+  display: flex;
+  border-radius: 8px;
+}
+
+/* The logo is black ink on white: multiply drops the white in light mode. */
+.logo {
+  height: 2.9rem;
+  width: auto;
+  mix-blend-mode: multiply;
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo {
+    filter: invert(1);
+    mix-blend-mode: screen;
+  }
+}
+
+.links {
+  display: flex;
+  gap: 0.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.link:hover {
+  color: var(--text);
+  background: var(--surface-muted);
+}
+
+.active,
+.active:hover {
+  color: var(--on-brand);
+  background: var(--brand);
+}
+
+.menuButton {
+  display: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.menuIcon,
+.menuIcon::before,
+.menuIcon::after {
+  display: block;
+  width: 1.1rem;
+  height: 2px;
+  margin-inline: auto;
+  background: currentColor;
+  border-radius: 2px;
+  transition: transform 0.2s;
+}
+
+.menuIcon {
+  position: relative;
+}
+
+.menuIcon::before,
+.menuIcon::after {
+  content: '';
+  position: absolute;
+}
+
+.menuIcon::before {
+  top: -6px;
+}
+
+.menuIcon::after {
+  top: 6px;
+}
+
+.menuButton[aria-expanded='true'] .menuIcon {
+  background: transparent;
+}
+
+.menuButton[aria-expanded='true'] .menuIcon::before {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.menuButton[aria-expanded='true'] .menuIcon::after {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+@media (max-width: 40rem) {
+  .menuButton {
+    display: block;
+  }
+
+  .links {
+    display: none;
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: var(--gutter);
+    right: var(--gutter);
+    flex-direction: column;
+    padding: 0.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+  }
+
+  .links[data-open='true'] {
+    display: flex;
+  }
+}
+
+.main {
+  min-height: calc(100dvh - 9rem);
+  padding-block: clamp(2rem, 6vw, 4rem);
+}
+
+.footer {
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.footerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 4.5rem;
+}
+
+.footerInner p {
+  margin: 0;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.25rem;
+}
+
+.social a {
+  color: var(--text-muted);
+  display: flex;
+}
+
+.social a:hover {
+  color: var(--brand);
+}

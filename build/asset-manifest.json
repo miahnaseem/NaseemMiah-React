@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9cd78282.css",
+    "main.js": "/static/js/main.c1247490.js",
+    "static/media/laptop.jpg": "/static/media/laptop.f85ef2b04decb4081773.jpg",
+    "static/media/priscilla-du-preez-yO12O8j3JK0-unsplash.jpg": "/static/media/priscilla-du-preez-yO12O8j3JK0-unsplash.169454c60732b5388f37.jpg",
+    "static/media/homepage.PNG": "/static/media/homepage.96fe78b0e6a4d3744d8e.PNG",
+    "static/media/cce-search.PNG": "/static/media/cce-search.ca29ba480e864acd5cf0.PNG",
+    "static/media/CHUGG.PNG": "/static/media/CHUGG.d0d6a8c0d374e148ca84.PNG",
+    "static/media/GEDCOMoutput.png": "/static/media/GEDCOMoutput.30ed7252a8f6e0441585.png",
+    "static/media/stevensLogo.jpg": "/static/media/stevensLogo.ea1d7124257c1eb268b8.jpg",
+    "static/media/OpenSansCondensed-Light.ttf": "/static/media/OpenSansCondensed-Light.e1803add2849dc2c9108.ttf",
+    "static/media/navlogo.png": "/static/media/navlogo.b7f5c79cf4db9d388d4f.png",
+    "index.html": "/index.html",
+    "main.9cd78282.css.map": "/static/css/main.9cd78282.css.map",
+    "main.c1247490.js.map": "/static/js/main.c1247490.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cd78282.css",
+    "static/js/main.c1247490.js"
+  ]
+}
